@@ -2,6 +2,8 @@
 
 > A privacy-safe portfolio case study about designing an AI-supported customer interaction simulation.
 
+![AI Customer Experience Simulation portfolio cover](assets/cover.svg)
+
 This repository presents a **sanitized product overview**. It demonstrates the product thinking, experience design and engineering practices behind a real-time customer interaction simulation without exposing production source code, organizational information, customer data or internal business processes.
 
 ## What the product does
@@ -16,6 +18,10 @@ The main design goals were:
 - explainable feedback focused on empathy, communication and resolution ownership;
 - a responsive experience for desktop and mobile use;
 - simple event operations for participants and administrators.
+
+## Experience at a glance
+
+![Participant journey from joining the simulation to receiving actionable feedback](assets/experience-journey.svg)
 
 ## My contribution
 
@@ -41,6 +47,8 @@ The main design goals were:
 | Delivery leadership | Iterating through field feedback, release gates, operational documentation and handover |
 
 ## High-level architecture
+
+![Layered system design and quality controls](assets/system-quality-map.svg)
 
 ```mermaid
 flowchart LR
