@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="660" viewBox="0 0 1440 660" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence-led iteration loop</title>
+  <desc id="desc">A continuous improvement loop from observation through diagnosis, design, validation and release.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6fbf9"/><stop offset="1" stop-color="#eaf5f2"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#18a77c"/><stop offset="1" stop-color="#2b81bd"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#18383d" flood-opacity=".14"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#3c8e91"/></marker>
+  </defs>
+  <rect width="1440" height="660" rx="28" fill="url(#bg)"/>
+  <text x="70" y="78" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="39" font-weight="760" fill="#11343a">Evidence-led iteration</text>
+  <text x="70" y="116" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" fill="#55757a">Turning field observations into controlled improvements across content, AI behavior, UX and operations.</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <circle cx="720" cy="360" r="142" fill="#fff" stroke="url(#ring)" stroke-width="8" filter="url(#shadow)"/>
+    <text x="720" y="330" text-anchor="middle" font-size="15" font-weight="750" letter-spacing="1.7" fill="#5c7c80">CORE PRACTICE</text>
+    <text x="720" y="369" text-anchor="middle" font-size="25" font-weight="760" fill="#12383e">Preserve realism</text>
+    <text x="720" y="402" text-anchor="middle" font-size="25" font-weight="760" fill="#12383e">remove uncertainty</text>
+
+    <path d="M475 220Q570 138 666 181" fill="none" stroke="#3c8e91" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M774 181Q877 143 966 222" fill="none" stroke="#3c8e91" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1040 294Q1090 393 1026 469" fill="none" stroke="#3c8e91" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M936 522Q810 583 690 538" fill="none" stroke="#3c8e91" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M602 525Q467 574 388 463" fill="none" stroke="#3c8e91" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M360 376Q345 277 427 226" fill="none" stroke="#3c8e91" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <g transform="translate(250 160)" filter="url(#shadow)">
+      <rect width="250" height="124" rx="20" fill="#fff" stroke="#c9ded9"/>
+      <circle cx="38" cy="38" r="20" fill="#dff4ed"/><text x="38" y="45" text-anchor="middle" font-size="18" font-weight="750" fill="#168d70">1</text>
+      <text x="72" y="43" font-size="21" font-weight="750" fill="#17383e">Observe</text>
+      <text x="24" y="80" font-size="15" fill="#607b80">Trials, hesitation, failures</text><text x="24" y="104" font-size="15" fill="#607b80">and participant feedback</text>
+    </g>
+    <g transform="translate(940 160)" filter="url(#shadow)">
+      <rect width="250" height="124" rx="20" fill="#fff" stroke="#c9ded9"/>
+      <circle cx="38" cy="38" r="20" fill="#e0f2ef"/><text x="38" y="45" text-anchor="middle" font-size="18" font-weight="750" fill="#188c7d">2</text>
+      <text x="72" y="43" font-size="21" font-weight="750" fill="#17383e">Diagnose</text>
+      <text x="24" y="80" font-size="15" fill="#607b80">Find the product cause,</text><text x="24" y="104" font-size="15" fill="#607b80">not only the symptom</text>
+    </g>
+    <g transform="translate(980 408)" filter="url(#shadow)">
+      <rect width="250" height="124" rx="20" fill="#fff" stroke="#c9ded9"/>
+      <circle cx="38" cy="38" r="20" fill="#e1eff5"/><text x="38" y="45" text-anchor="middle" font-size="18" font-weight="750" fill="#2686a4">3</text>
+      <text x="72" y="43" font-size="21" font-weight="750" fill="#17383e">Design</text>
+      <text x="24" y="80" font-size="15" fill="#607b80">Improve content, behavior,</text><text x="24" y="104" font-size="15" fill="#607b80">interface or system rules</text>
+    </g>
+    <g transform="translate(595 500)" filter="url(#shadow)">
+      <rect width="250" height="124" rx="20" fill="#fff" stroke="#c9ded9"/>
+      <circle cx="38" cy="38" r="20" fill="#e6eef7"/><text x="38" y="45" text-anchor="middle" font-size="18" font-weight="750" fill="#347ead">4</text>
+      <text x="72" y="43" font-size="21" font-weight="750" fill="#17383e">Validate</text>
+      <text x="24" y="80" font-size="15" fill="#607b80">Check quality layers and</text><text x="24" y="104" font-size="15" fill="#607b80">cross-device behavior</text>
+    </g>
+    <g transform="translate(210 408)" filter="url(#shadow)">
+      <rect width="250" height="124" rx="20" fill="#fff" stroke="#c9ded9"/>
+      <circle cx="38" cy="38" r="20" fill="#fff0d8"/><text x="38" y="45" text-anchor="middle" font-size="18" font-weight="750" fill="#b47714">5</text>
+      <text x="72" y="43" font-size="21" font-weight="750" fill="#17383e">Release &amp; learn</text>
+      <text x="24" y="80" font-size="15" fill="#607b80">Ship reproducibly, monitor</text><text x="24" y="104" font-size="15" fill="#607b80">and begin the next cycle</text>
+    </g>
+  </g>
+</svg>
