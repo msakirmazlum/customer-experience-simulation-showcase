@@ -33,6 +33,8 @@ The main design goals were:
 - Responsive UX refinement and accessibility considerations
 - Testing, release validation and production handover documentation
 - Privacy-aware separation of configuration, runtime data and source code
+- Field-feedback analysis and iterative product calibration
+- Event-screen information design, results export and operational continuity
 
 ## What this case study demonstrates
 
@@ -45,6 +47,7 @@ The main design goals were:
 | Evaluation design | Translating observable behaviors into structured, explainable developmental feedback |
 | Engineering | Orchestrating real-time sessions, state transitions, data boundaries and recovery paths |
 | Delivery leadership | Iterating through field feedback, release gates, operational documentation and handover |
+| Quality improvement | Auditing scenario clarity, action usefulness, scoring separation and cross-device behavior as one system |
 
 ## High-level architecture
 
@@ -88,6 +91,7 @@ Specific providers, model deployments, prompts, scoring rules and production arc
 - [Sanitized product case study](docs/CASE_STUDY.md) — the challenge, experience flow and key design choices
 - [Product decisions](docs/PRODUCT_DECISIONS.md) — how realism, usability and event constraints were balanced
 - [AI quality approach](docs/AI_QUALITY_APPROACH.md) — quality dimensions, test layers and failure handling
+- [Iteration and release practice](docs/ITERATION_AND_RELEASE.md) — how field findings became controlled product improvements
 
 ## Repository scope
 

@@ -55,6 +55,10 @@ The application separates scenario content, session orchestration, conversationa
 
 The project demonstrates how conversational AI can support experiential learning when product design, domain modeling and operational readiness are developed together. The strongest improvements came from repeated end-to-end testing: simplifying the participant's decisions, shortening supporting text, improving response timing and making feedback easier to interpret.
 
+Later field trials showed that realism alone was insufficient. A scenario could be factually plausible and still leave a participant unsure what to say or do. The content model was therefore strengthened around three explicit questions: what the participant can know, what action they can credibly take, and what confirmed information becomes available after that action. This made the simulation more useful without turning it into a specialist process exam.
+
+The same trials informed improvements beyond dialogue: finer-grained evaluation, clearer result interpretation, persistent event records, more readable public display states and mobile-first checks for the live conversation tools. Treating these as one connected experience was essential to production readiness.
+
 ## Disclosure boundary
 
 This document intentionally excludes organization-specific processes, customer examples, model configuration, prompts, scoring logic, service providers, infrastructure and production metrics.
